@@ -60,9 +60,6 @@ This project turns the **Telco Customer Churn** dataset into:
 2. **Focus retention spend** on early tenure (especially 3–6 months)  
 3. **Promote autopay adoption** among electronic-check users  
 
-### Storytelling example
-> Customer A churned in **month 4** with a **$70** monthly charge → **$840** annual revenue at risk.  
-> A $90 upgrade incentive that saves them returns roughly **9×** on that single account.
 
 ---
 
@@ -102,27 +99,9 @@ customer-churn-dashboard/
 ├── .gitignore                             # Blocks venv/cache/secrets
 │
 ├── sql/
-│   └── cohort_queries.sql                 # Reference SQL queries
-│
-└── docs/
-    ├── 01_case_study_storytelling.md      # Business narrative
-    ├── 02_project_overview.md             # Dataset + formulas + flow
-    ├── 03_technology_execution.md         # Stack + runbook
-    ├── 04_polishing.md                    # Portfolio positioning
-    └── 05_DEPLOYMENT_GUIDE.md             # GitHub + Streamlit deploy help
+    └── cohort_queries.sql                 # Reference SQL queries
+          # GitHub + Streamlit deploy help
 ```
-
-### What goes to GitHub?
-
-| Upload ✅ | Do **not** upload ❌ |
-|---|---|
-| `app.py`, `data_analysis.py` | `.venv/` / `venv/` |
-| `requirements.txt` | `__pycache__/` |
-| Dataset CSV | `.streamlit/secrets.toml` |
-| `README.md`, `docs/`, `sql/` | Local exports (`filtered_customers.csv`) |
-| `.gitignore` | Editor/OS junk |
-
-Full details → **[docs/05_DEPLOYMENT_GUIDE.md](docs/05_DEPLOYMENT_GUIDE.md)**
 
 ---
 
@@ -130,7 +109,7 @@ Full details → **[docs/05_DEPLOYMENT_GUIDE.md](docs/05_DEPLOYMENT_GUIDE.md)**
 
 ```powershell
 # 1) Go to project folder
-cd "D:\001sep\dep projects\customer churn dashboard"
+cd "....\customer-churn-retention-spend-dashboard"
 
 # 2) (Recommended) create virtual environment
 python -m venv .venv
@@ -150,27 +129,6 @@ Open **http://localhost:8501**
 
 ---
 
-## 🚀 Deploy (short version)
-
-### 1) Push to GitHub
-```powershell
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/customer-churn-dashboard.git
-git push -u origin main
-```
-
-### 2) Deploy on Streamlit Cloud
-1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub  
-2. **New app** → select this repository  
-3. Branch: `main`  
-4. **Main file path:** `app.py`  
-5. Click **Deploy**  
-6. Copy the public URL into this README  
-
-**Need the full checklist (must-upload files, do-not-upload list, troubleshooting)?**  
-→ Read **[Deployment Guide](docs/05_DEPLOYMENT_GUIDE.md)**
-
----
 
 ## 📊 Dashboard tabs
 
@@ -183,22 +141,6 @@ git push -u origin main
 | **Customer table** | Filterable explorer + CSV download |
 
 ---
-
-## 📚 Documentation
-
-| Document | Use it for |
-|---|---|
-| [🚀 Deployment Guide](docs/05_DEPLOYMENT_GUIDE.md) | What to upload, what to skip, GitHub + Cloud steps |
-| [📖 Case Study & Storytelling](docs/01_case_study_storytelling.md) | Business context & interview narrative |
-| [🔎 Project Overview](docs/02_project_overview.md) | Dataset, formulas, project flow |
-| [🛠️ Technology & Execution](docs/03_technology_execution.md) | Stack details & runbook |
-| [✨ Polishing](docs/04_polishing.md) | Portfolio / LinkedIn positioning |
-
----
-
-## 🎯 Portfolio one-liner
-
-> Built a dark-mode Streamlit churn dashboard with SQL cohort analysis that quantifies **$139K+/month revenue at risk** and prioritizes telecom retention spend by contract, tenure, internet service, and payment method.
 
 ---
 
