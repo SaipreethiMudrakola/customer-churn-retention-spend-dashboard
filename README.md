@@ -100,7 +100,6 @@ customer-churn-dashboard/
 │
 ├── sql/
     └── cohort_queries.sql                 # Reference SQL queries
-          # GitHub + Streamlit deploy help
 ```
 
 ---
