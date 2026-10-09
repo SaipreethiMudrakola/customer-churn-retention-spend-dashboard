@@ -15,9 +15,9 @@ A telecom retention intelligence dashboard that shows *where limited budget stop
 [![SQL](https://img.shields.io/badge/SQL-Cohorts-orange?style=for-the-badge)](#-sql-cohorts)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#-license)
 
-**[🚀 Live Dashboard](#)**
 
-[Live Dashboard](https://customer-churn-retention-spend-dashboard-saipreethi-m.streamlit.app/)
+
+[**🚀 Live Dashboard](#)**](https://customer-churn-retention-spend-dashboard-saipreethi-m.streamlit.app/)
 
 </div>
 
