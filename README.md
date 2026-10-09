@@ -15,10 +15,9 @@ A telecom retention intelligence dashboard that shows *where limited budget stop
 [![SQL](https://img.shields.io/badge/SQL-Cohorts-orange?style=for-the-badge)](#-sql-cohorts)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#-license)
 
-**[🚀 Live Dashboard](#)** · **[📘 Deployment Guide](docs/05_DEPLOYMENT_GUIDE.md)** · **[📖 Case Study](docs/01_case_study_storytelling.md)**
+**[🚀 Live Dashboard](#)**
 
-> 🔗 After deploy, replace the Live Dashboard `#` with your Streamlit Cloud URL  
-> Example: `https://your-app-name.streamlit.app`
+[Live Dashboard](https://customer-churn-retention-spend-dashboard-saipreethi-m.streamlit.app/)
 
 </div>
 
