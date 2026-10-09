@@ -17,7 +17,7 @@ A telecom retention intelligence dashboard that shows *where limited budget stop
 
 
 
-[**[🚀 Live Dashboard](#)**](https://customer-churn-retention-spend-dashboard-saipreethi-m.streamlit.app/)
+[🚀 Live Dashboard](https://customer-churn-retention-spend-dashboard-saipreethi-m.streamlit.app/)
 
 </div>
 
